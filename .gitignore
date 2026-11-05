@@ -5,3 +5,10 @@ node_modules/
 *.log
 .DS_Store
 artifacts/
+
+# Local instructions and verification tools
+/SETUP.md
+/COLLABORATION.md
+/supabase-setup.sql
+/app.test.cjs
+/scripts/check-supabase.cjs

@@ -165,7 +165,7 @@ async function initialize() {
     if (!response.ok) throw new Error("Could not load config.json.");
     const settings = await response.json();
     if (!/^https:\/\/[a-z0-9-]+\.supabase\.co\/?$/.test(settings.supabaseUrl) || !/^sb_publishable_[A-Za-z0-9_-]+$/.test(settings.supabasePublishableKey) || settings.tableName !== "tasks") {
-      throw new Error("Setup needed: add your Supabase project URL and public publishable key to config.json. See SETUP.md.");
+      throw new Error("Setup needed: add your Supabase project URL and public publishable key to config.json.");
     }
     config = { ...settings, supabaseUrl: settings.supabaseUrl.replace(/\/$/, "") };
     await loadTasks();
