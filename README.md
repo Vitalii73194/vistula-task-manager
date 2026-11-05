@@ -1,6 +1,6 @@
 # Task Manager
 
-A simple task manager for the Team Project – IT course. Tasks can be added, edited, marked as completed and deleted. Data is stored in Supabase.
+Team Project Vistula. Tasks can be added, edited, marked as completed and deleted. Data is stored in Supabase.
 
 Student ID: **73194**
 
