@@ -11,7 +11,7 @@ Basic Task Manager for the Vistula Team Project – IT course.
 
 ## Status
 
-Supabase is configured. Live REST checks passed for reading, creating, editing, completing, marking incomplete and deleting a temporary task. GitHub publication and both partner Pull Requests are still pending. The URLs above are the required destinations, not a claim of deployment.
+Supabase is configured. Live REST checks passed for reading, creating, editing, completing, marking incomplete and deleting a temporary task. Source is pushed to GitHub and GitHub Pages is configured to publish from the root of main. Both partner Pull Requests are still pending.
 
 ## Features
 
