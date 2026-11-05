@@ -57,7 +57,7 @@ See [COLLABORATION.md](COLLABORATION.md) for the exact contribution requirements
 
 Automated REST-stub checks: `node --test app.test.cjs`. These cover CRUD, refresh, error recovery, configuration validation and blank titles; real database and deployed-page checks remain required.
 
-Live demonstration database check: `node scripts/check-supabase.cjs`. This creates one temporary task, checks CRUD and persistence through a separate read, and deletes only that task afterward. Last successful run: 5 November 2026. Browser and deployed-page checks remain pending.
+Live demonstration database check: `node scripts/check-supabase.cjs`. This creates one temporary task, checks CRUD and persistence through a separate read, and deletes only that task afterward. Last successful run: 5 November 2026. Browser checks on the deployed GitHub Pages application passed on 5 November 2026: create, refresh persistence, edit, complete, refresh completion persistence, mark incomplete, delete and refresh removal. The temporary verification task was removed.
 
 1. Open the deployed page and verify student ID `73194` and tasks loaded from Supabase.
 2. Add a task with title and description. Refresh; verify it persists.
